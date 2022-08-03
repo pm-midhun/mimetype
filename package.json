@@ -1,6 +1,6 @@
 {
   "name": "@hoooman/mimetype",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "This package is used for checking the mime type of files.",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/Hoooman001/mimetype#readme",
   "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-google": "^0.14.0",
     "jest": "^28.1.3"
   }
 }
