@@ -1,0 +1,23 @@
+{
+  "name": "@hoooman/mimetype",
+  "version": "1.0.0",
+  "description": "This package is used for checking the mime type of files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hoooman001/mimetype.git"
+  },
+  "keywords": [
+    "Mimetype",
+    "File type"
+  ],
+  "author": "Hoooman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hoooman001/mimetype/issues"
+  },
+  "homepage": "https://github.com/Hoooman001/mimetype#readme"
+}
