@@ -14,14 +14,14 @@ npm i @hoooman/mimetype
 Example
 
 ```sh
-const getMimetype = require("@hoooman/mimetype");
+const mimetype = require("@hoooman/mimetype");
 
-getMimetype("./test.jpeg", function(err, mimeType){
+mimetype.getMimetype("./test.jpeg", function(err, mimeType){
     console.log(err);
     console.log(mimeType);
 })
 
-getMimetype("./test.jpeg")
+mimetype.getMimetype("./test.jpeg")
 .then(res=>console.log(res))
 .catch(err=> console.log(err))
 ```
