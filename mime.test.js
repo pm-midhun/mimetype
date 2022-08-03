@@ -1,7 +1,12 @@
-const getMimetype = require("./index");
+const mimetype = require("./index");
 
-test("Check type of package json file", ()=>{
-    getMimetype('./package.json').then(data=>{
-        expect(data).toBe(" application/json");
-    }).catch(console.log)
-})
+describe("File format testing", () => {
+
+    test("Check JSON file => application/json", async () => {
+        await expect(mimetype.getMimetype("./package.json")).resolves.toBe("application/json");
+    });
+
+    test("Check JS file => application/javascript", async () => {
+        await expect(mimetype.getMimetype("./index.js")).resolves.toBe("application/javascript");
+    });
+});
